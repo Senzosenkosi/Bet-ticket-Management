@@ -21,7 +21,10 @@ def add_ticket(title, description, category, priority, assigned_to):
     st.success("Ticket added successfully!")
 
 # Streamlit UI
-st.title("Ticket Capture Application")
+st.title("Bet-Way-Ticketing System")
+st.subheader("Create a New Ticket")
+# Sidebar for navigation
+st.sidebar.title("Navigation")
 
 # Input fields for ticket details
 title = st.text_input("Title")
